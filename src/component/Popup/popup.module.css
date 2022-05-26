@@ -1,0 +1,43 @@
+.popUpIteam{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:200px;
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#EEF2F4;
+    padding: 10px 0;
+    animation:login-user ease 0.3s , hide linear 0.1s 3s forwards;
+
+}
+
+@keyframes login-user{
+    from{
+        transform:translate(-50%, 0);
+        opacity: 0;
+    }
+    to{
+        transform:translate(-50%,10px);
+        opacity: 1;
+    }
+}
+@keyframes hide {
+    to{
+        opacity: 0;
+    }
+}
+.check{
+    font-size:30px;
+    color: #fa9746;
+}
+.name{
+    font-size: 18px ;
+    color:#fa9746
+}
+
+i{
+    font-size: 10px ;
+    color:#000000
+}

@@ -1,0 +1,94 @@
+.useLogin{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.2);
+    z-index:2;
+}
+
+.boxLogin{
+    /* margin: 10vh auto; */
+    padding: 20px;
+    width: 400px;
+    max-width:calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border: 1px solid #332A05;
+    background-color: #EEF2F4;
+    animation:login-user ease 0.3s;
+    z-index: 9999;
+}
+@keyframes login-user{
+    from{
+        transform:translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+
+.showLogin{
+    display: flex;
+    justify-content: space-between;
+}
+.nameOption{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+.nameOption:hover{
+    opacity: 0.8;
+}
+.active{
+    color: #fa9746;
+}
+
+
+/* Login */
+.iteamInput{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.iteamInput >label{
+    cursor: pointer;
+}
+.iteamInput >input{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.subForm{
+
+}
+.subBtn{
+    background-color: #5595e8;
+    color: #fff;
+    padding: 8px 30px ;
+    width: 100%;
+    border:1px solid transparent;
+    margin-top: 30px ;
+    border-radius: 4px;
+    
+}
+.subBtn:hover{
+    background-color: #EEF2F4;
+    color:#5595e8;
+    border:1px solid #5595e8;
+}
+
+.warning{
+    color: #fa9746;
+    font-size: 12px;
+    margin-top: 0.2rem;
+    font-weight: 500;
+}
+
+/* registration */
+
+

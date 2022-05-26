@@ -1,0 +1,48 @@
+.noComment,
+.userComment{
+    margin-top: 10px;
+    background-color: #EEF2F4;
+}
+.noComment,
+.renderComment{
+    padding: 10px
+}
+.noComment{
+    min-height: 200px;
+}
+.userComment h6,
+.noComment h6{
+    /* margin-top: 30px; */
+    font-size: 20px;
+    color: #fa9746;;
+    padding: 20px 10px 0;
+}
+.noComment p{
+    text-align: center;
+}
+.contentComment span,
+.customer,
+.optionColor2,
+.iteamCoin{
+    display: flex;
+}
+.descriptionNav >img{
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.contentComment span p{
+    opacity: 0.5;
+}
+.Sent{
+    color: #5595e8;
+    cursor: pointer;
+    margin-left: 0.7rem;
+}
+.shopAnser{
+    margin-left:5%;
+    margin-top: 0.5rem;
+
+}

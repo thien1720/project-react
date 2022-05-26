@@ -1,0 +1,46 @@
+
+.Iteam{
+    display: flex;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.styleImg >img{
+    object-fit: cover;
+}
+.contentText{
+    margin:0 0.5rem;
+}
+.headText{
+    font-size: 1.1rem;
+}
+.head{
+    font-size: 0.9rem;
+}
+.description{
+    font-size: 0.9rem;
+}
+.time{
+    opacity: 0.8;
+    font-size: 0.6rem;
+}
+.icon{
+    opacity: 0.8;
+    margin-right: 0.3rem;
+}
+
+
+@media (max-width:576px) {
+    .styleImg >img{
+        height: 125px;
+        object-fit: cover;
+    }
+    .headText{
+        font-size: 0.9rem;
+    }
+    .description{
+        font-size: 0.7rem;
+    }
+    .head{
+        font-size: 0.9rem;
+    }
+}

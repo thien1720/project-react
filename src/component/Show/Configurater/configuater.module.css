@@ -1,0 +1,66 @@
+
+.contentText{
+    
+    padding: 40px;
+    line-height: 1.6;
+    height: 300px;
+    background-color: #EEF2F4;
+    overflow: hidden;
+    position: relative;
+}
+.ContentTextShow{
+    height: 100%;
+}
+.showText{
+    position: absolute;
+    top: 85%;  
+    left: 50%;
+    transform: translateX(-50%)
+}
+.showText2{
+    display: none;
+}
+.showHeight{
+    background-color: #EEF2F4;
+    padding:4px  20px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;  
+}
+.showHeight:hover{
+    opacity: 1;
+}
+
+.contentImg{
+    background-image: url("../../../../public/image/Lap/photo.avif");
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    background-size:contain;
+    height: 480px;
+    max-height: 480px;
+}
+.firtText >h6,
+.firtText >h5{
+    font-weight: 600;
+}
+.firtText >p{
+    margin-bottom:10px;
+}
+.botomHead >h6{
+    margin-top : 20px;
+}
+@media (max-width:576px){
+    .contentText{
+        padding: 2%;
+    }
+    .contentImg{
+        background-position: 0;
+        height: 223px;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width:768px){
+
+}

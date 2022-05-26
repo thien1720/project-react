@@ -1,0 +1,189 @@
+
+a{
+    color: #332A05;
+}
+a:hover{
+    color: #332A05;
+}
+.titleZero{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 12%;
+    /* height: 50vh; */
+}
+.Shoping{
+    margin: 30px 12% ;
+
+}
+.Shoping >a{
+    padding: 10px 30px ;
+    color: #fff;
+    font-weight: 600;
+    background-color: #fa9746;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 0.4px solid ;
+
+}
+.Shoping >a:hover{
+    background-color: #EEF2F4;
+    color: #5595e8;
+}
+.page >a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #332A05;
+}
+.page >a:hover{
+    color: #5595e8;
+}
+.page >p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btnShoping{
+    background-color: #F2692F;
+}
+.btnShoping >a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.subDetail{
+    display: flex;
+    justify-content:space-between
+}
+.detailStyle{
+    margin: 0 20px;
+}
+.detailImg >img{
+    width: 200px;
+}
+.detailNameIteam >p{
+    font-weight: 600;
+}
+.Coins{
+    font-size: 18px;
+    color:#F2692F;
+    font-weight: 600;
+}
+.saleCoin{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.quantity{
+    display:flex;   
+}
+.Btn {
+    display: flex;
+    align-items: center;
+    margin: 0 0.5em;
+    border: none;
+    background-color: #5595e8;;
+    border-radius:10px;
+    cursor: pointer;
+}
+.Btn:hover{
+    background-color: #EEF2F4;
+}
+.Btn:hover .increase,
+.Btn:hover .decrement{
+    color: #5595e8;;
+}
+.increase,
+.decrement{
+    width: 35px ;
+    height: 34 px;
+    border:0.4px solid ;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.removeIteam{
+    opacity: 0.6;
+    font-size: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.saleIteam input{
+    border: 1px solid #ccc;
+    border-radius: 4px ;
+    padding: 5px;
+    margin-right: 10px;
+}
+.saleIteam button{
+    padding:5px 15px;
+    color: #fff;
+    background-color: #fa9746;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px ;
+}
+.saleIteam button:hover{
+    background-color: #ccc;
+    color: #5595e8;;
+}
+.totalMonney{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.warning{
+    color: #fa9746;
+    font-size: 12px;
+    margin-top: 0.2rem;
+    font-weight: 500;
+}
+.styleNoDis{
+    color: #fa9746;
+}
+@media (max-width:576px) {
+    .page >p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .showCoin{
+        display: none;
+    }
+    .subDetail{
+        justify-content: space-between
+    }
+    .detailImg >img{
+        width: 140px;
+    }
+    .detailNameIteam >p{
+        font-size: 12px;
+    }
+    .detailStyle{
+        margin: 0 0.2rem;
+    }
+
+    .saleIteam{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .page >p{
+        font-size: 16px;
+        margin: 0;
+    }
+    .showCoin{
+        display: none;
+    }
+    .subDetail{
+        justify-content: space-evenly
+    }
+    .detailImg >img{
+        width: 140px;
+    }
+    .detailNameIteam >p{
+        font-size: 14px;
+    }
+    /* .Coins,
+    .saleCoin{
+        font-size: 16px;
+    } */
+}

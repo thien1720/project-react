@@ -1,0 +1,65 @@
+
+.contentText{
+    padding: 40px;
+    line-height: 1.6;
+    background-color: #EEF2F4;
+    height:300px;
+    overflow: hidden;
+    position: relative;
+}
+.ContentTextShow{
+    height: 100%;
+}
+.showText{
+    position: absolute;
+    top: 85%;  
+    left: 50%;
+    transform: translateX(-50%)
+}
+.showText2{
+    display: none;
+}
+
+.showHeight{
+    background-color: #EEF2F4;
+    padding:4px  20px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;  
+}
+.showHeight:hover{
+    opacity: 1;
+}
+
+
+
+.listConfig ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.listConfig ul li{
+    display: flex;
+    padding: 10px;
+}
+.configColor{
+    background-color: #fff;
+}
+
+.ontent,
+.configNavSize{
+    min-width: 20%;
+    margin-right: 10px;
+}
+@media (max-width:576px){
+    .contentText{
+        padding: 2%;
+    }
+    .configNavSize{
+        min-width: 33%;
+    }
+}
+
+
+@media (max-width:768px){
+
+}

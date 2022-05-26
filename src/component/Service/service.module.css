@@ -1,0 +1,196 @@
+.styleService {
+    background-color: #EEF2F4;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 9% 0;
+    padding: 35px 0;
+}
+
+.iteamService {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.iteamService p {
+    font-size: 10px;
+}
+
+.iteamService h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.iconService {
+    font-size: 50px;
+    color: #5595e8;
+    margin: 0 0.6rem;
+}
+
+.headSub {
+    text-align: center;
+    margin: 0 20px;
+    flex: 1;
+}
+
+.iconService>h6,
+.iconService>p {
+    display: block;
+}
+
+.headSub>h6 {
+    font-size: 22px;
+}
+
+.headSub>p {
+    font-size: 12px;
+}
+
+.subEmail {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 9% 0;
+}
+
+.inputEmail {
+    border: 1px solid rgba(22, 24, 35, 0.06);
+
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem 1rem;
+
+}
+
+.iteamEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.btnSub {
+    background-color: #5595e8;
+    border-radius: 0 5px 5px 0;
+    border-color: #5595e8;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.checkSub {
+    font-size: 20px;
+    color: #fff;
+}
+
+.btnSub:hover .checkSub,
+.btnSub:hover {
+    background-color: #fff;
+    border-color: #5595e8;
+    color: #5595e8;
+    opacity: 0.8;
+
+}
+
+@media (max-width:576px) {
+    .content {
+        margin-top: 20px;
+    }
+
+    .subEmail,
+    .iteamService {
+        display: block;
+        text-align: center;
+    }
+
+    .subEmail h6 {
+        font-size: 16px;
+        color: #5595e8;
+    }
+
+    .subEmail>p {
+        font-size: 12px;
+    }
+
+    .iteamService>p {
+        font-size: 7px;
+
+    }
+
+    .iteamService h6 {
+        font-size: 13px;
+    }
+
+    .iconService {
+        font-size: 35px;
+    }
+
+    .iteamEmail {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .inputEmail {
+
+        padding: 0.2rem 1rem;
+        padding: 4px 0.2rem;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .content {
+        margin: 30px 0 0;
+    }
+
+    .iteamService {
+        display: block;
+        text-align: center;
+    }
+
+    .subService {
+        /* text-align: center; */
+    }
+
+    .iteamService p {
+        font-size: 8px;
+
+    }
+
+    .iteamService h6 {
+        font-size: 14px;
+    }
+
+    .iconService {
+        font-size: 40px;
+    }
+
+    .subEmail {
+        text-align: center;
+    }
+
+    .iteamEmail {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .content {
+        margin: 30px 0;
+    }
+
+    .iteamService p {
+        font-size: 8px;
+    }
+
+    .iteamService h6 {
+        font-size: 14px;
+    }
+
+    .iconService {
+        font-size: 50px;
+    }
+}

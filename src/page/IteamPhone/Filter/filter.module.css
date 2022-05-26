@@ -1,0 +1,64 @@
+.navOption {}
+
+.filterOption {
+    background-color: #EEF2F4;
+    height: 100%;
+    padding: 10px;
+}
+.iteamSub {
+    background-color: #fff;
+    padding: 10px;
+    height: 80px;
+}
+.filterSub {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.unFilter {
+    cursor: pointer;
+    padding: 0.2em;
+    font-size: 25px;
+}
+.filterRender {
+    background-color: #fff;
+}
+.filterApply {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.6em;
+}
+.subApply:hover {
+    background-color: #EEF2F4;
+    color: #332A05;
+    border: 0.3px solid;
+}
+.subApply {
+    background-color: #fa9746;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 0.3px solid;
+}
+.styleoption span {
+    margin-left: 10px;
+}
+.styleOption span,
+.styleOption input {
+    cursor: pointer;
+}
+
+@media(max-width:567px) {
+
+}
+
+
+@media (min-width: 577px) and (max-width:767px) {
+    
+}
+
+@media (max-width:767px) {
+    .layoutGridOption{
+        display:none
+    }
+}

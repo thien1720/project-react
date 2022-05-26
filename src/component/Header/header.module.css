@@ -1,0 +1,201 @@
+
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#5595e8;
+    min-height: 70px;
+}
+
+.imgLogo{
+    height: 60px;
+    border-radius: 4px;
+}
+
+.searchHeader{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 80px;
+    border-radius:8px 0 0 8px; 
+    position: relative;
+
+}
+.searchHeader:focus{
+    outline: none;
+}
+.HeaderInput{
+    padding: 7px 10px ;
+    background-color:#f1f1f2;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    line-height: 100%;
+}
+.HeaderInput:hover{
+    opacity: 0.9;
+}
+.HeaderOption >img{
+    margin: 0 0.5em;
+    cursor: pointer;
+    height: 30px;
+}
+
+.StyleIcon{
+    font-size: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.StyleColor{
+    color: #fa9746;
+}
+.InputIcon{
+    font-size: 19px;
+}
+.headerPage{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#EEF2F4;
+    min-height: 50px;
+}
+
+.headerPage .page{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 0.5em;
+    color: #332A05;
+}
+.logOut,
+.mobiPage{
+    margin: 10px 0;
+    padding: 8px 14px;
+    color: #332A05;
+    text-transform: uppercase;
+    border-bottom: 2px solid #332A05;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logOut:hover,
+.mobiPage:hover{
+    color: #5595e8;
+    border-bottom: 2px solid #5595e8;
+}
+.headerPage .page:hover{
+    color: #5595e8;
+    border-bottom: 3px solid #5595e8;
+}
+.listMobi{
+    display:none;
+}
+.headerLoginPay{
+    display: flex;
+}
+.headerPage .iteamStyle{
+    color:#5595e8;
+}
+
+.iteamStyle{
+    color:#5595e8;
+}
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(0, 0,0, 0.2);
+    z-index: 2;
+    cursor: pointer;
+}
+.optionMobi{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    max-width: 100%;
+    background-color: #fff;
+    z-index: 3;
+    opacity: 1;
+    transform:translateX(-100%);
+    transition: transform ease 1s;
+
+}
+.mobiNav{
+    transform: translateX(0)
+}
+
+.use{
+    display:flex;
+    padding-bottom: 8px;
+    border-bottom: 0.4px solid #332A05;
+    margin: 1rem 0;
+}
+.use > img{
+    width: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.use >p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:8px;
+}
+.ListMobi{
+    display: flex;
+    flex-direction:column;
+}
+.hideNav{
+    font-size: 40px;
+    position: absolute;
+    top: 1rem;
+    padding:5px;
+    right: 6px;
+    cursor: pointer;
+    transition: transform 0.5s linear 0.3s;
+}
+.hideNav:hover{
+    transform: rotate(90deg);
+}
+@media(max-width:767px) {
+    .imgLogo{
+        height: 50px;
+    }
+    .searchHeader{
+        padding-right: 0;
+    }
+    .HeaderOption >img{
+        margin: 0 0.2em;
+        height:22px;
+    }
+    .HeaderInput{
+        padding: 8px 8px ;
+        background-color:#f1f1f2;
+        border-radius: 0 15px 15px 0;
+        cursor: pointer;
+        line-height: 100%;
+    }
+    .InputIcon{
+        font-size: 15px;
+    }    
+    .headerPage{
+        justify-content: space-between;
+    }
+    .headerLoginPay,
+    .listMobi{
+        margin: 0 1rem;
+    }
+    .listMobi{
+        display:block;
+    }
+    .listPageFul{
+        display:none;
+    }
+}
+  
+@media (min-width:768px) and (max-width:991px) {
+   
+}

@@ -1,0 +1,57 @@
+
+
+.flashSale{
+    color:#fa9746;
+    margin-top: 30px;
+    margin-left:6%;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Iteam{
+    margin: 50px  9% 0; 
+}
+.pageHead{
+    background-color: #5595e8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 30px;
+}
+.pageHead >h3{
+    letter-spacing:.6px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width:567px) {
+    .Iteam {
+        margin: 30px 2% 0;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width:767px) {
+    .Iteam {
+        margin: 30px 4% 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .Iteam {
+        margin: 50px 6% 0;
+    }
+}
+
+@media (max-width:1111px) {
+    .contai{
+        padding: 0;
+        margin:0 auto;
+    }
+}

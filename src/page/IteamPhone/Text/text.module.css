@@ -1,0 +1,110 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.TextHead{
+    text-align: center;
+    margin-top: 50px ;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.ContentText{
+    border: 2px solid #EEF2F4;
+    padding: 35px;
+    line-height: 1.6;
+    transition: all 0.2s;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    margin: 30px 9% 0;
+}
+.ContentTextShow{
+    height: 100%;
+}
+.contentImg{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.contentImg >img{
+    margin: 0 30px;
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+}
+.showText{
+    position: absolute;
+    top: 85%;  
+    left: 50%;
+    transform: translateX(-50%)
+}
+.showText2{
+    display: none;
+}
+.showHeight{
+    background-color: #EEF2F4;
+    padding:4px  20px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;  
+}
+.showHeight:hover{
+    opacity: 1;
+}
+
+.FirtText >h6,
+.FirtText >h5{
+    font-weight: 600;
+}
+.FirtText >p{
+    margin-bottom: 10px;
+}
+
+@media (max-width:576px) {
+    .TextHead{ 
+        font-size: 24px;
+        margin: 30px 0 0px 0;
+    }
+    .ContentText{
+        padding: 1%;
+        margin:20px 2% 0
+    }
+    .iteamText >p{
+        font-size: 14px;
+    }
+    .iteamText >h6{
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .contentImg{
+        margin: 1rem 0;
+    }
+    .contentImg >img{
+        
+        height: 150px;
+    }
+} 
+@media (min-width:576px) and (max-width:991px) {
+    .TextHead{ 
+        font-size: 24px;
+    }
+    
+    .iteamText >p{
+        font-size: 14px;
+    }
+    .iteamText >h6{
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .contentImg{
+        margin: 1rem 0;
+    }
+
+    .contentImg >img{
+        
+        height: 300px;
+    } 
+} 

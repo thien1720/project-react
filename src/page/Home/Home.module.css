@@ -1,0 +1,141 @@
+
+.flashSale{
+    color:#fa9746;
+    margin-top: 30px;
+    margin-left:6%;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.lapHead{
+    background-color: #5595e8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.lapHead >h5{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.iteamBrand ul,
+.lapHead ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+}
+.iteamBrand ul li >a,
+.lapHead ul li >a{
+    background-color: #fff;
+    margin: 5px 10px;
+    color: #5595e8;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: roboto, arial, helvetica;
+    padding: 0 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px #00000029;
+}
+.iteamBrand ul li >a:hover,
+.lapHead ul li >a:hover{
+    opacity: 0.8;
+}
+.iteamBrand{
+  display: none;
+}
+.iteamCard{
+
+}
+.cartIteam{
+    
+}
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev{
+    opacity: 0.8;
+    color: #5595e8;
+
+}
+.swiper-button-next{
+    opacity: 0.8;
+    color: #5595e8;
+}
+
+
+/* respoinsive */
+@media(max-width:567px) {
+  .lapHead{
+    height:45px;
+    margin-bottom: 8px;
+  }
+  .lapHead >h5{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .lapHead ul{
+    display: none;
+  }
+  .iteamBrand{
+    display: block;
+    margin: 5px 0;
+  }
+  .iteamBrand ul li >a{
+    padding: 0 8px;
+    margin: 5px 4px;
+    font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: 577px) and (max-width:767px) {
+  .lapHead{
+    margin-bottom: 10px;
+  }
+
+  .iteamBrand ul li >a{
+    margin: 5px 5px;
+  }
+  .lapHead ul{
+    display: none;
+  }
+  .iteamBrand{
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .lapHead ul li >a{
+    font-size: 16px;
+    padding: 4px 15px;
+  }
+
+}

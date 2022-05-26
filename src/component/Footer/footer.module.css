@@ -1,0 +1,23 @@
+.IconSocial{
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.face{
+    color: rgb(59, 89, 152);
+}
+.insta{
+    color: rgb(131, 58, 180);
+}
+.email{
+    color: rgb(242, 101, 34);
+}
+.youtube{
+    color: rgb(255, 0, 0);
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .IconSocial{
+        font-size: 22px;
+    }
+}

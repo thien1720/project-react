@@ -1,0 +1,20 @@
+
+.styleOption{
+    background-color: #EEF2F4;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.optionCoin{
+    color: #fa9746;
+}
+.useSelect{
+    border: 1px solid #5595e8;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .styleOption >p{
+        font-size: 10px;
+    }
+}

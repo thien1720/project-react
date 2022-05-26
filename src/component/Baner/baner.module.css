@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banNerNav >img{
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid #332A05;
+    position: relative;
+}

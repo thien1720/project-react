@@ -1,0 +1,347 @@
+{
+    "fashSale": [
+        {
+            "id": 1,
+            "title": "iPhone 11 64GB I Chính hãng VN/A",
+            "coins": 13590000,
+            "saleCoin": 18390000,
+            "description": "Thu cũ đổi mới trọn đời",
+            "image":"/image/sale/iphone-11.png",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "imgage/lap/slice-mac-iteam2.webp",
+                "image/Lap/slice-mac-iteam.webp",
+                "image/Lap/slice-mac.webp",
+                "image/Lap/slice-mac.webp",
+                "imgage/Lap/slice-mac1.webp",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "sale":"20%",
+            "status": true
+        },
+        {
+            "id": 2,
+            "title": "Xiaomi Redmi Note 10S - 8GB/128GB - Chính hãng DGW",
+            "coins": 5600000,
+            "saleCoin": 6490000,
+            "description": "Tặng phiếu tai nghe Xiaomi Mi Earphone Basic ",
+            "image":"/image/sale/10s.png",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "image/Lap/slice-mac3.jpg",
+                "image/Lap/mac-iteam2.jpg",
+                "image/Lap/slice-mac.jpg",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "sale":"30%",
+            "status": true
+        },
+        {
+            "id": 3,
+            "title": "Laptop Dell Inspiron N3511A - P112F001ABL - Chính hãng",
+            "coins": 13900000,
+            "saleCoin": 15900000,
+            "description": "Tặng phiếu mua hàng trị giá :300.000đ",
+            "image":"/image/Lap/laptop-dell-vostro-5515.png",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "imgage/lap/slice-mac-iteam2.webp",
+                "image/Lap/slice-mac-iteam.webp",
+                "image/Lap/slice-mac.webp",
+                "imgage/Lap/slice-mac1.webp",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "sale":"30%",
+            "status": true
+        },
+        {
+            "id": 4,
+            "title": "Apple AirPods Pro - Chính Hãng Apple (MLWK3ZP/A, MagSafe)",
+            "coins": 4350000,
+            "saleCoin": 71900000,
+            "description": "Tặng phiếu mua hàng trị giá :300.000đ",
+            "image":"/image/Acccers/airpods-2.jpg",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "imgage/lap/slice-mac-iteam2.webp",
+                "image/Lap/slice-mac-iteam.webp",
+                "image/Lap/slice-mac.webp",
+                "imgage/Lap/slice-mac1.webp",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "sale":"30%",
+            "status": true
+        },
+        {
+            "id": 5,
+            "title": "Máy tính bảng Samsung Galaxy Tab A7 Lite - Chính hãng",
+            "coins": 3890000,
+            "saleCoin": 4990000,
+            "description": "Tặng phiếu mua hàng trị giá :300.000đ",
+            "image":"/image/Tab/tab-new.png",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "imgage/lap/slice-mac-iteam2.webp",
+                "image/Lap/slice-mac-iteam.webp",
+                "image/Lap/slice-mac.webp",
+                "image/Lap/slice-mac.webp",
+                "imgage/Lap/slice-mac1.webp",
+                "image/lap/slice-mac3.jpg"
+            ],
+            
+            "status": true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "Apple MacBook Air M1 16GB 256GB I Chính hãng Apple Việt Nam",
+            "coins": 23000000,
+            "saleCoin": 25000000,
+            "description": "Thu cũ đổi mới trọn đời.",
+            "image":"/image/Lap/macAir.jpg",
+            "listImg":[
+                "image/Lap/macslice-Pe.png",
+                "image/Lap/slice-mac3.jpg",
+                "image/Lap/slice-mac.jpg",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            
+            "status": true
+        },
+        {
+            "id": 2,
+            "title": "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015T",
+            "coins": 22000000,
+            "saleCoin": 23490000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/RogStrig.jpg",
+            "listImg":[
+                "/image/Lap/RogStrig.jpg",
+                "image/Lap/RogStrig1.webp",
+                "image/Lap/RogStrig2.jpg",
+                "image/Lap/RogStrig3.jpg",
+                "imagelLap/RogStrig4.jpg",
+                "image/Lap/RogStrig5.webp"
+                
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 3,
+            "title": "Laptop ASUS Gaming FX506LH-HN002T ",
+            "coins": 21900000,
+            "saleCoin": 24900000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/asusZenbookF15.jpg",
+            "listImg":[
+                "image/Lap/asusZenbookF15.jpg"  ,
+                "image/Lap/ausZeenbookF15-1.jpg",
+                "image/Lap/asusZeenbookf15-2.jpg",
+                "image/Lap/asusZeenbookF15-3.jpg",
+                "image/Lap/asusZeenbookf15-4.jpg"
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 4,
+            "title": "Laptop HP 14-DQ2055WM 39K15UA - Nhập khẩu chính hãng ",
+            "coins": 13900000,
+            "saleCoin": 14990000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"image/Lap/hp-14.jpg",
+            "listImg":[
+               
+                "image/Lap/hp-14.jpg",
+                "image/Lap/hp-14slide1.jpg",
+                "image/lap/hp-14slide2.webp",
+                "image/lap/hp-14slide3.webp",
+                "image/lap/laptop-hp-14-6.webp"
+                
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 5,
+            "title": "Laptop Lenovo Ideapad 3 14ITL6 - 82H700DNVN - Chính hãng",
+            "coins": 14900000,
+            "saleCoin": 15900000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/laptop-lenovo-ideapad-3.png",
+            "listImg":[
+                "/image/Lap/laptop-lenovo-ideapad-3.png",
+                "/image/Lap/lenovo-idea1.jpg",
+                "/image/Lap/lenovo-idea2.jpg",
+                "/image/Lap/lenovo-idea4.jpg",
+                "/image/Lap/lenovo-idea5.jpg"
+
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 6,
+            "title": "Laptop ASUS Vivobook X512JA-211 - Nhập khẩu chính hãng",
+            "coins": 19900000,
+            "saleCoin": 21190000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/vivobook.png",
+            "listImg":[
+                "/image/Lap/vivobook.png",
+                "image/Lap/asus-vivobook-d515-1.jpg",
+                "image/Lap/laptop-asus-vivobook-d515-2.webp",
+                "image/Lap/laptop-asus-vivobook-d515-3.webp",
+                "image/Lap/laptop-asus-vivobook-d515-4.jpg",
+                "image/Lap/laptop-asus-vivobook-d515-5.jpg"
+                
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 7,
+            "title": "Apple M1 - MacBook Pro 13'' 512GB 2020 - Chính hãng Apple Việt Nam",
+            "coins": 36000000,
+            "saleCoin": 38000000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/Macbook Pro 13.png",
+            "listImg":[
+                "/image/Lap/Macbook Pro 13.png",
+                "image/Lap/macslice-Pe.png",
+                "image/Lap/slice-mac3.jpg",
+                "image/Lap/mac-iteam2.jpg",
+                "image/Lap/slice-mac.jpg",
+                "image/lap/slice-mac3.jpg"
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        },
+        {
+            "id": 8,
+            "title": "Laptop ASUS ZenBook UX325EA-KG363T",
+            "coins": 23200000,
+            "saleCoin": 25290000,
+            "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
+            "image":"/image/Lap/asusZenbook.jpg",
+            "listImg":[
+                "/image/Lap/asusZenbook.jpg",
+                "image/Lap/laptop-asus-zenbook-ux325-side2.jpg",
+                "image/Lap/laptop-asus-zenbook-ux325-slide1.webp",
+                "image/Lap/laptop-asus-zenbook-ux325.jpg",
+                "image/Lap/laptop-asus-zenbook-ux325slide3.webp"
+                
+            ],
+            "option":[
+                {
+                    "gb":"8/128GB",
+                    "coin":23000000
+                },
+                {
+                    "gb":"8/256GB",
+                    "coin":25000000
+                },
+                {
+                    "gb":"16/256GB",
+                    "coin":28000000
+                }
+            ],
+            "status": true
+        }
+
+    ]
+}

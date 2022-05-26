@@ -1,0 +1,35 @@
+.Option{
+    display: flex;
+    justify-content: flex-end;
+}
+.listFilter{
+    display: none;
+    padding: 1px 0;
+}
+.Option select{
+    max-width: 120px;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+}
+.Option select:focus{
+    outline: none;
+}
+
+@media(max-width:767px) {
+    .Option{
+        justify-content: space-between;
+    }
+    .listFilter{
+        display: block;
+        border:1px solid transparent;
+        border-radius: 5px;
+        background-color: #fa9746;
+        color: #fff;
+    }
+    .listFilter:hover{
+        color: #5595e8;
+        border: 1px solid #5595e8;
+        background-color: #EEF2F4;
+    }
+}
