@@ -59,13 +59,13 @@ function Home() {
 
       >
         <SwiperSlide>
-          <Banner image="image/slice/web-macbook-air-01.jpg" />{" "}
+          <Banner image="../image/slice/web-macbook-air-01.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Banner image="image/slice/web-realme-9-pro-01.jpg" />{" "}
+          <Banner image="../image/slice/web-realme-9-pro-01.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Banner image="image/slice/menu-slice.png" />{" "}
+          <Banner image="../image/slice/menu-slice.png" />
         </SwiperSlide>
       </Swiper>
 

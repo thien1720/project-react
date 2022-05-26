@@ -6,15 +6,15 @@
             "coins": 13590000,
             "saleCoin": 18390000,
             "description": "Thu cũ đổi mới trọn đời",
-            "image":"/image/sale/iphone-11.png",
+            "image":"./image/sale/iphone-11.png",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "imgage/lap/slice-mac-iteam2.webp",
-                "image/Lap/slice-mac-iteam.webp",
-                "image/Lap/slice-mac.webp",
-                "image/Lap/slice-mac.webp",
-                "imgage/Lap/slice-mac1.webp",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/lap/slice-mac-iteam2.webp",
+                "./image/Lap/slice-mac-iteam.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac1.webp",
+                "./image/lap/slice-mac3.jpg"
             ],
             "sale":"20%",
             "status": true
@@ -25,13 +25,13 @@
             "coins": 5600000,
             "saleCoin": 6490000,
             "description": "Tặng phiếu tai nghe Xiaomi Mi Earphone Basic ",
-            "image":"/image/sale/10s.png",
+            "image":"./image/sale/10s.png",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "image/Lap/slice-mac3.jpg",
-                "image/Lap/mac-iteam2.jpg",
-                "image/Lap/slice-mac.jpg",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/Lap/slice-mac3.jpg",
+                "./image/Lap/mac-iteam2.jpg",
+                "./image/Lap/slice-mac.jpg",
+                "./image/lap/slice-mac3.jpg"
             ],
             "sale":"30%",
             "status": true
@@ -42,14 +42,14 @@
             "coins": 13900000,
             "saleCoin": 15900000,
             "description": "Tặng phiếu mua hàng trị giá :300.000đ",
-            "image":"/image/Lap/laptop-dell-vostro-5515.png",
+            "image":"./image/Lap/laptop-dell-vostro-5515.png",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "imgage/lap/slice-mac-iteam2.webp",
-                "image/Lap/slice-mac-iteam.webp",
-                "image/Lap/slice-mac.webp",
-                "imgage/Lap/slice-mac1.webp",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/lap/slice-mac-iteam2.webp",
+                "./image/Lap/slice-mac-iteam.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac1.webp",
+                "./image/lap/slice-mac3.jpg"
             ],
             "sale":"30%",
             "status": true
@@ -60,14 +60,14 @@
             "coins": 4350000,
             "saleCoin": 71900000,
             "description": "Tặng phiếu mua hàng trị giá :300.000đ",
-            "image":"/image/Acccers/airpods-2.jpg",
+            "image":"./image/Acccers/airpods-2.jpg",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "imgage/lap/slice-mac-iteam2.webp",
-                "image/Lap/slice-mac-iteam.webp",
-                "image/Lap/slice-mac.webp",
-                "imgage/Lap/slice-mac1.webp",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/lap/slice-mac-iteam2.webp",
+                "./image/Lap/slice-mac-iteam.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac1.webp",
+                "./image/lap/slice-mac3.jpg"
             ],
             "sale":"30%",
             "status": true
@@ -78,15 +78,15 @@
             "coins": 3890000,
             "saleCoin": 4990000,
             "description": "Tặng phiếu mua hàng trị giá :300.000đ",
-            "image":"/image/Tab/tab-new.png",
+            "image":"./image/Tab/tab-new.png",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "imgage/lap/slice-mac-iteam2.webp",
-                "image/Lap/slice-mac-iteam.webp",
-                "image/Lap/slice-mac.webp",
-                "image/Lap/slice-mac.webp",
-                "imgage/Lap/slice-mac1.webp",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/lap/slice-mac-iteam2.webp",
+                "./image/Lap/slice-mac-iteam.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac.webp",
+                "./image/Lap/slice-mac1.webp",
+                "./image/lap/slice-mac3.jpg"
             ],
             
             "status": true
@@ -99,12 +99,12 @@
             "coins": 23000000,
             "saleCoin": 25000000,
             "description": "Thu cũ đổi mới trọn đời.",
-            "image":"/image/Lap/macAir.jpg",
+            "image":"./image/Lap/macAir.jpg",
             "listImg":[
-                "image/Lap/macslice-Pe.png",
-                "image/Lap/slice-mac3.jpg",
-                "image/Lap/slice-mac.jpg",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/macslice-Pe.png",
+                "./image/Lap/slice-mac3.jpg",
+                "./image/Lap/slice-mac.jpg",
+                "./image/lap/slice-mac3.jpg"
             ],
             "option":[
                 {
@@ -129,14 +129,14 @@
             "coins": 22000000,
             "saleCoin": 23490000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/RogStrig.jpg",
+            "image":"./image/Lap/RogStrig.jpg",
             "listImg":[
-                "/image/Lap/RogStrig.jpg",
-                "image/Lap/RogStrig1.webp",
-                "image/Lap/RogStrig2.jpg",
-                "image/Lap/RogStrig3.jpg",
-                "imagelLap/RogStrig4.jpg",
-                "image/Lap/RogStrig5.webp"
+                "./image/Lap/RogStrig.jpg",
+                "./image/Lap/RogStrig1.webp",
+                "./image/Lap/RogStrig2.jpg",
+                "./image/Lap/RogStrig3.jpg",
+                "./imagelLap/RogStrig4.jpg",
+                "./image/Lap/RogStrig5.webp"
                 
             ],
             "option":[
@@ -161,13 +161,13 @@
             "coins": 21900000,
             "saleCoin": 24900000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/asusZenbookF15.jpg",
+            "image":"./image/Lap/asusZenbookF15.jpg",
             "listImg":[
-                "image/Lap/asusZenbookF15.jpg"  ,
-                "image/Lap/ausZeenbookF15-1.jpg",
-                "image/Lap/asusZeenbookf15-2.jpg",
-                "image/Lap/asusZeenbookF15-3.jpg",
-                "image/Lap/asusZeenbookf15-4.jpg"
+                "./image/Lap/asusZenbookF15.jpg"  ,
+                "./image/Lap/ausZeenbookF15-1.jpg",
+                "./image/Lap/asusZeenbookf15-2.jpg",
+                "./image/Lap/asusZeenbookF15-3.jpg",
+                "./image/Lap/asusZeenbookf15-4.jpg"
             ],
             "option":[
                 {
@@ -191,14 +191,14 @@
             "coins": 13900000,
             "saleCoin": 14990000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"image/Lap/hp-14.jpg",
+            "image":"./image/Lap/hp-14.jpg",
             "listImg":[
                
-                "image/Lap/hp-14.jpg",
-                "image/Lap/hp-14slide1.jpg",
-                "image/lap/hp-14slide2.webp",
-                "image/lap/hp-14slide3.webp",
-                "image/lap/laptop-hp-14-6.webp"
+                "./image/Lap/hp-14.jpg",
+                "./image/Lap/hp-14slide1.jpg",
+                "./image/lap/hp-14slide2.webp",
+                "./image/lap/hp-14slide3.webp",
+                "./image/lap/laptop-hp-14-6.webp"
                 
             ],
             "option":[
@@ -223,13 +223,13 @@
             "coins": 14900000,
             "saleCoin": 15900000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/laptop-lenovo-ideapad-3.png",
+            "image":"./image/Lap/laptop-lenovo-ideapad-3.png",
             "listImg":[
-                "/image/Lap/laptop-lenovo-ideapad-3.png",
-                "/image/Lap/lenovo-idea1.jpg",
-                "/image/Lap/lenovo-idea2.jpg",
-                "/image/Lap/lenovo-idea4.jpg",
-                "/image/Lap/lenovo-idea5.jpg"
+                "./image/Lap/laptop-lenovo-ideapad-3.png",
+                "./image/Lap/lenovo-idea1.jpg",
+                "./image/Lap/lenovo-idea2.jpg",
+                "./image/Lap/lenovo-idea4.jpg",
+                "./image/Lap/lenovo-idea5.jpg"
 
             ],
             "option":[
@@ -254,14 +254,14 @@
             "coins": 19900000,
             "saleCoin": 21190000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/vivobook.png",
+            "image":"./image/Lap/vivobook.png",
             "listImg":[
-                "/image/Lap/vivobook.png",
-                "image/Lap/asus-vivobook-d515-1.jpg",
-                "image/Lap/laptop-asus-vivobook-d515-2.webp",
-                "image/Lap/laptop-asus-vivobook-d515-3.webp",
-                "image/Lap/laptop-asus-vivobook-d515-4.jpg",
-                "image/Lap/laptop-asus-vivobook-d515-5.jpg"
+                "./image/Lap/vivobook.png",
+                "./image/Lap/asus-vivobook-d515-1.jpg",
+                "./image/Lap/laptop-asus-vivobook-d515-2.webp",
+                "./image/Lap/laptop-asus-vivobook-d515-3.webp",
+                "./image/Lap/laptop-asus-vivobook-d515-4.jpg",
+                "./image/Lap/laptop-asus-vivobook-d515-5.jpg"
                 
             ],
             "option":[
@@ -286,14 +286,14 @@
             "coins": 36000000,
             "saleCoin": 38000000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/Macbook Pro 13.png",
+            "image":"./image/Lap/Macbook Pro 13.png",
             "listImg":[
-                "/image/Lap/Macbook Pro 13.png",
-                "image/Lap/macslice-Pe.png",
-                "image/Lap/slice-mac3.jpg",
-                "image/Lap/mac-iteam2.jpg",
-                "image/Lap/slice-mac.jpg",
-                "image/lap/slice-mac3.jpg"
+                "./image/Lap/Macbook Pro 13.png",
+                "./image/Lap/macslice-Pe.png",
+                "./image/Lap/slice-mac3.jpg",
+                "./image/Lap/mac-iteam2.jpg",
+                "./image/Lap/slice-mac.jpg",
+                "./image/lap/slice-mac3.jpg"
             ],
             "option":[
                 {
@@ -317,13 +317,13 @@
             "coins": 23200000,
             "saleCoin": 25290000,
             "description": "Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k",
-            "image":"/image/Lap/asusZenbook.jpg",
+            "image":"./image/Lap/asusZenbook.jpg",
             "listImg":[
-                "/image/Lap/asusZenbook.jpg",
-                "image/Lap/laptop-asus-zenbook-ux325-side2.jpg",
-                "image/Lap/laptop-asus-zenbook-ux325-slide1.webp",
-                "image/Lap/laptop-asus-zenbook-ux325.jpg",
-                "image/Lap/laptop-asus-zenbook-ux325slide3.webp"
+                "./image/Lap/asusZenbook.jpg",
+                "./image/Lap/laptop-asus-zenbook-ux325-side2.jpg",
+                "./image/Lap/laptop-asus-zenbook-ux325-slide1.webp",
+                "./image/Lap/laptop-asus-zenbook-ux325.jpg",
+                "./image/Lap/laptop-asus-zenbook-ux325slide3.webp"
                 
             ],
             "option":[
