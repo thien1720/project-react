@@ -35,7 +35,7 @@ function ShowCard() {
 
 
   useEffect(() => {
-    fetch(`http://localhost:8000/products/${params.id}`)
+    fetch(`https://webreacts.herokuapp.com/products/${params.id}`)
       .then(res => res.json())
       .then(json => {
         setProduct(json)

@@ -25,7 +25,7 @@ function Home() {
   const [laps, setLap] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/fashSale", {
+    fetch("https://webreacts.herokuapp.com/fashSale", {
       method: "GET",
     })
       .then((res) => res.json())
@@ -33,7 +33,7 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:8000/products")
+    fetch("https://webreacts.herokuapp.com/products")
       .then((res) => res.json())
       .then((laps) => setLap(laps));
   }, []);
