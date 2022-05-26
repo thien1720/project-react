@@ -191,7 +191,7 @@ function ShowCard() {
                 Gia hạn bảo hành thời gian giãn cách
               </p>
               <p>
-                <img src="image/icon-phone.png" alt="" />
+                <img src="/image/icon-phone.png" alt="" />
                 Hotline:013355485.
               </p>
             </div>

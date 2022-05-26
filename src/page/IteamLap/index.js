@@ -36,13 +36,13 @@ function LapTop() {
 
     >
       <SwiperSlide>
-        <Banner image="image/slice/web-macbook-air-01.jpg" />{" "}
+        <Banner image="/image/slice/web-macbook-air-01.jpg" />{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <Banner image="image/slice/web-realme-9-pro-01.jpg" />{" "}
+        <Banner image="/image/slice/web-realme-9-pro-01.jpg" />{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <Banner image="image/slice/menu-slice.png" />{" "}
+        <Banner image="/image/slice/menu-slice.png" />{" "}
       </SwiperSlide>
     </Swiper>
     <h1 className={clsx(styles.flashSale)}>Flash Sale <BsFillLightningFill /></h1>
@@ -81,7 +81,7 @@ function LapTop() {
           <SwiperSlide>
 
             <CardFlash
-              image="image/Sale-laptop/macbook-air-gold.jpg"
+              image="/image/Sale-laptop/macbook-air-gold.jpg"
               coins={311900000}
               title="Apple MacBook Air M1 512GB I Chính hãng Apple Việt Nam "
               saleCoin={349900000}
@@ -93,7 +93,7 @@ function LapTop() {
           <SwiperSlide>
 
             <CardFlash
-              image="image/Sale-laptop/Dell_0003_34994.jpg"
+              image="/image/Sale-laptop/Dell_0003_34994.jpg"
               coins={16590000}
               title="Laptop Dell Vostro 3405 V4R53500U003W"
               saleCoin={18490000}
@@ -106,7 +106,7 @@ function LapTop() {
           <SwiperSlide>
 
             <CardFlash
-              image="image/Sale-laptop/acer-nitro-5.jpg"
+              image="/image/Sale-laptop/acer-nitro-5.jpg"
               coins={21900000}
               title="Laptop Gaming Acer Nitro 5 AN515-45-R3SM NH.QBMSV.005"
               saleCoin={23900000}
@@ -119,7 +119,7 @@ function LapTop() {
           <SwiperSlide>
 
             <CardFlash
-              image="image/Sale-laptop/laptop-hp-15s.webp"
+              image="/image/Sale-laptop/laptop-hp-15s.webp"
               coins={18050000}
               title="Laptop HP 15S-FQ2558TU 46M26PA"
               saleCoin={21100000}
@@ -132,7 +132,7 @@ function LapTop() {
           <SwiperSlide>
 
             <CardFlash
-              image="image/Lap/RogStrig.jpg"
+              image="/image/Lap/RogStrig.jpg"
               coins={21990000}
               title="Laptop Asus Gaming Rog Strix G15 G513IH"
               saleCoin={23900000}

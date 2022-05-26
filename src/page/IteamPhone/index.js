@@ -40,13 +40,13 @@ function Phone() {
 
         >
             <SwiperSlide>
-                <Banner image="image/slice/web-macbook-air-01.jpg" />{" "}
+                <Banner image="/image/slice/web-macbook-air-01.jpg" />{" "}
             </SwiperSlide>
             <SwiperSlide>
-                <Banner image="image/slice/web-realme-9-pro-01.jpg" />{" "}
+                <Banner image="/image/slice/web-realme-9-pro-01.jpg" />{" "}
             </SwiperSlide>
             <SwiperSlide>
-                <Banner image="image/slice/menu-slice.png" />{" "}
+                <Banner image="/image/slice/menu-slice.png" />{" "}
             </SwiperSlide>
         </Swiper>
         <h1 className={clsx(styles.flashSale)}>Flash Sale <BsFillLightningFill /></h1>
@@ -88,7 +88,7 @@ function Phone() {
                 <SwiperSlide >
 
                     <CardFlash
-                        image="image/menuPhone/iphone_12_pro_max.webp"
+                        image="/image/menuPhone/iphone_12_pro_max.webp"
                         coins={28510000}
                         title="iPhone 12 Pro Max 128GB I Chính hãng VN/A"
                         saleCoin={329900000}
@@ -100,7 +100,7 @@ function Phone() {
                 <SwiperSlide >
 
                     <CardFlash
-                        image="image/menuPhone/samsung-galaxy-20.jpg"
+                        image="/image/menuPhone/samsung-galaxy-20.jpg"
                         coins={12490000}
                         title="Samsung Galaxy S20 FE 256GB (Fan Edition)"
                         saleCoin={15990000}
@@ -113,7 +113,7 @@ function Phone() {
                 <SwiperSlide >
 
                     <CardFlash
-                        image="image/menuPhone/flip-3.webp"
+                        image="/image/menuPhone/flip-3.webp"
                         coins={201900000}
                         title="Laptop Gaming Acer Nitro 5 AN515-45-R3SM NH.QBMSV.005"
                         saleCoin={24900000}
@@ -126,7 +126,7 @@ function Phone() {
                 <SwiperSlide >
 
                     <CardFlash
-                        image="image/menuPhone/xiaomi11life.png"
+                        image="/image/menuPhone/xiaomi11life.png"
                         coins={8150000}
                         title="Laptop HP 15S-FQ2558TU 46M26PA"
                         saleCoin={10190000}
@@ -139,7 +139,7 @@ function Phone() {
                 <SwiperSlide >
 
                     <CardFlash
-                        image="image/menuPhone/samsung-a52.webp"
+                        image="/image/menuPhone/samsung-a52.webp"
                         coins={9000000}
                         title="Samsung Galaxy A52s 5G"
                         saleCoin={10990000}

@@ -47,7 +47,7 @@ function Text() {
             </div>
 
             <div className={clsx(styles.contentImg)}>
-                <img src="image/wrrting/weiting-tablet.jpg" alt="ảnh sản phẩm" />
+                <img src="/image/wrrting/weiting-tablet.jpg" alt="ảnh sản phẩm" />
             </div>
             <div className={clsx(styles.FirstText ,styles.iteamText)}>
             <h6>Tại sao nên mua máy tính bảng?

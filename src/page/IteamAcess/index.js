@@ -38,13 +38,13 @@ function Phone() {
 
     >
       <SwiperSlide>
-        <Banner image="image/slice/web-macbook-air-01.jpg" />{" "}
+        <Banner image="/image/slice/web-macbook-air-01.jpg" />{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <Banner image="image/slice/web-realme-9-pro-01.jpg" />{" "}
+        <Banner image="/image/slice/web-realme-9-pro-01.jpg" />{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <Banner image="image/slice/menu-slice.png" />{" "}
+        <Banner image="/image/slice/menu-slice.png" />{" "}
       </SwiperSlide>
     </Swiper>
     <h1 className={clsx(styles.flashSale)}>Flash Sale <BsFillLightningFill /></h1>
@@ -82,7 +82,7 @@ function Phone() {
         <SwiperSlide>
 
           <CardFlash
-            image="image/Acccers/airpods-2.jpg"
+            image="/image/Acccers/airpods-2.jpg"
             coins={3190000}
             title="Tai nghe Bluetooth Apple AirPods 2 VN/A"
             saleCoin={3990000}
@@ -94,7 +94,7 @@ function Phone() {
         <SwiperSlide>
 
           <CardFlash
-            image="image/Acccers/sac-nhanhAnker.jpg"
+            image="/image/Acccers/sac-nhanhAnker.jpg"
             coins={2900000}
             title="Sạc nhanh Anker Powerport III Nano 20W A2633"
             saleCoin={490000}
@@ -107,7 +107,7 @@ function Phone() {
         <SwiperSlide>
 
           <CardFlash
-            image="image/Acccers/camera-ip-wifi.jpg"
+            image="/image/Acccers/camera-ip-wifi.jpg"
             coins={530000}
             title="Camera IP Wifi TP-Link Tapo C200 360° 1080P 2MP"
             saleCoin={1290000}
@@ -120,7 +120,7 @@ function Phone() {
         <SwiperSlide>
 
           <CardFlash
-            image="image/Acccers/router-wifi-tp-link-archer-ax10.jpg"
+            image="/image/Acccers/router-wifi-tp-link-archer-ax10.jpg"
             coins={1200000}
             title="Router Wifi Tp-Link Archer Ax10 chuẩn Wifi 6 AX1500"
             saleCoin={3790000}
@@ -133,7 +133,7 @@ function Phone() {
         <SwiperSlide>
 
           <CardFlash
-            image="image/Acccers/gia-treo.jpg"
+            image="/image/Acccers/gia-treo.jpg"
             coins={420000}
             title="Giá treo màn hình máy tính North Bayou NB-F80"
             saleCoin={650000}

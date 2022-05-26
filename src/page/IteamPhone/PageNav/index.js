@@ -22,7 +22,7 @@ function IteamNavs() {
           </div>
           <div className="row">
             <CardNav
-              image="image/menuPhone/flip-3.webp"
+              image="/image/menuPhone/flip-3.webp"
               title="Samsung Galaxy Z Flip3 5G"
               coins={21900000}
               saleCoin={24900000}
@@ -30,7 +30,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/oppoReno6.png"
+              image="/image/menuPhone/oppoReno6.png"
               title="OPPO Reno6 5G - Chính Hãng"
               coins={13900000}
               saleCoin={14990000}
@@ -38,7 +38,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/ip13-pro_2.jpg"
+              image="/image/menuPhone/ip13-pro_2.jpg"
               title="iPhone 13 128GB | Chính hãng VN/A"
               coins={23890000}
               saleCoin={24990000}
@@ -46,7 +46,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/samsung-galaxy-z-fold-3.jpg"
+              image="/image/menuPhone/samsung-galaxy-z-fold-3.jpg"
               title="Samsung Galaxy Z Fold3 5G 256GB"
               coins={46210000}
               saleCoin={43900000}
@@ -54,7 +54,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/vivoV23.png"
+              image="/image/menuPhone/vivoV23.png"
               title="Vivo V23 5G"
               coins={13190000}
               saleCoin={14000000}
@@ -62,7 +62,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/xiaomi11life.png"
+              image="/image/menuPhone/xiaomi11life.png"
               title="Xiaomi 11 Lite 5G NE 8GB - 256GB"
               coins={8200000}
               saleCoin={9990000}
@@ -70,7 +70,7 @@ function IteamNavs() {
             />
 
             <CardNav
-              image="image/menuPhone/xiomi11T.png"
+              image="/image/menuPhone/xiomi11T.png"
               title="Xiaomi 11 Lite 5G NE 8GB - 256GB"
               coins={12990000}
               saleCoin={13890000}
