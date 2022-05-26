@@ -59,7 +59,7 @@ function Service() {
         <div className={clsx(styles.subEmail)}>
             <div className={clsx(styles.headSub)}>
                 <h6>Đăng ký nhận tin</h6>
-                <p>Đăng ký để nhận những chương trình khuyến mại hot nhất của Hoàng Hà Mobile
+                <p>Đăng ký để nhận những chương trình khuyến mại hot nhất của NewTech
 
                 </p>
             </div>

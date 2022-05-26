@@ -262,7 +262,7 @@ function ShowCard() {
           >
             <SwiperSlide>
             <CardFlash
-              image="image/Lap/laptop-lenovo-ideapad-3.png"
+              image="/image/Lap/laptop-lenovo-ideapad-3.png"
               title="Laptop Lenovo Ideapad 3- Chính hãng"
               coins={14400000}
               saleCoin={15900000}
@@ -271,7 +271,7 @@ function ShowCard() {
             </SwiperSlide>
             <SwiperSlide>
             <CardFlash
-              image="image/Lap/vivobook.png"
+              image="/image/Lap/vivobook.png"
               title="Laptop ASUS Vivobook  - Nhập khẩu chính hãng"
               coins={19990000}
               saleCoin={21210000}
@@ -280,7 +280,7 @@ function ShowCard() {
             </SwiperSlide>
             <SwiperSlide>
             <CardFlash
-              image="image/Lap/Macbook Pro 13.png"
+              image="/image/Lap/Macbook Pro 13.png"
               title="Apple M1 - MacBook Pro 13''2020 - Chính hãng Apple Việt Nam"
               coins={360000000}
               saleCoin={38000000}
@@ -289,7 +289,7 @@ function ShowCard() {
             </SwiperSlide>
             <SwiperSlide>
             <CardFlash
-              image="image/Lap/asusZenbook.jpg"
+              image="/image/Lap/asusZenbook.jpg"
               title="Laptop ASUS ZenBook UX325EA-KG363T"
               coins={23200000}
               saleCoin={25290000}
@@ -298,7 +298,7 @@ function ShowCard() {
             </SwiperSlide>
             <SwiperSlide>
             <CardFlash
-              image="image/Lap/RogStrig.jpg"
+              image="/image/Lap/RogStrig.jpg"
               coins={21990000}
               title="Laptop Asus Gaming Rog Strix G15 G513IH"
               saleCoin={23900000}

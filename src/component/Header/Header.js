@@ -4,7 +4,7 @@ import clsx from "clsx"
 
 
 import FormLogin from "../FromLogin"
-import LogoBrand from "./img-logo/LogoBrand.png";
+import LogoBrand from "./img-logo/LogoBrand.jpg";
 import { BsCartPlus, BsSearch } from "react-icons/bs";
 import { FaRegUserCircle, FaBars, FaTimes } from "react-icons/fa";
 import styles from "./header.module.css";
