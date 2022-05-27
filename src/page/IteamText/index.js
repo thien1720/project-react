@@ -1,5 +1,4 @@
-import { BsFillLightningFill } from "react-icons/bs";
-import Header from '../../component/Header/Header';
+
 import ShowText from "../../component/ShowText";
 
 import Footer from "../../component/Footer"
